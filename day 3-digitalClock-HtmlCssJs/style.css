@@ -1,0 +1,33 @@
+
+.clock-container{
+    width: 400px;
+    margin: auto;
+    background-color: black;
+    color: green;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 40px 0px 40px;
+}
+.clock-container>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-container>div{
+    display: flex;
+    align-items: center;
+}
+.second{
+    padding-top: 35px;
+    color: white;
+}
+.date,.second{
+    font-size: 30px;
+}
+
+.time{
+    font-size: 80px;
+}
