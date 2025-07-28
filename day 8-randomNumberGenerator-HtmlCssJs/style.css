@@ -1,0 +1,46 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    color: #fff;
+    text-align: center;
+}
+
+h1#output {
+    font-size: 6rem;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+button#generate {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #0083b0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button#generate:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+button#generate:active {
+    transform: scale(0.98);
+}
