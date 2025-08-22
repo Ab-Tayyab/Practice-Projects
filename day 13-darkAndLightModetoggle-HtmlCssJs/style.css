@@ -1,0 +1,29 @@
+body.light {
+  background: #f9f9f9;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  transition: background 0.4s, color 0.4s;
+}
+body.dark {
+  background: #1e1e1e;
+  color: #f1f1f1;
+}
+
+#btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 20px;
+  background: linear-gradient(135deg, #6a5acd, #00bcd4);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
